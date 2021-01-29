@@ -8,9 +8,20 @@
 
 </head>
 <body>
+    <?php 
+include 'insert_php.php';
+include 'db.php' ;
+?>
 <!-- Index Page -->
-<form action="insert_html.php">
-   <button class ="entry" name="entry_page" ><h1> PHP CRUD <h1></button> 
+<?php if(isset($_GET['entry_page']))
+    {
+        //render to 'insert.html' Page.
+        header('location: insert_html.php');
+    }
+?>
+<!-- Index Page -->
+<form class="index-form" action="insert_html.php">
+   <button  name="entry_page" ><h1> PHP CRUD <h1></button> 
     <form>
 </body>
 </html>
