@@ -10,7 +10,7 @@
 <body>
 <!-- Index Page -->
 <form action="insert_html.php">
-   <button class ="entry" name="entry_page" > PHP CRUD </button> 
+   <button class ="entry" name="entry_page" ><h1> PHP CRUD <h1></button> 
     <form>
 </body>
 </html>

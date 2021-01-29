@@ -6,7 +6,8 @@ body{
   text-align: center;
 }
 h1{
-  color: blanchedalmond;
+  color: brown;
+  font-size: 40px;
 }
 .table-content {
   border: 1px solid #ccc;
