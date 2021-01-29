@@ -1,0 +1,77 @@
+body{
+  margin:0;
+  padding:0;
+  background-color:SlateBlue;
+  text-align: center;
+}
+h1{
+  color: blanchedalmond;
+}
+.table-content {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 80%;
+  padding: 100px;
+  margin: auto;
+}
+form{
+  width:40%;
+  margin:25px auto;
+  background-color:lightgray;
+  height:100px;
+  text-align:center;
+  box-shadow: 5px 5px 2px 2px black;
+}
+.msg, .text{
+  margin-top:5px;
+  text-align:center;
+  color:white;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+table thead tr {
+  min-width: 500px;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+input ,button{
+  margin: 5px;
+  border-radius: 5px;
+}
+
+
+@media only screen and (min-width: 400px) {
+  td{
+    padding: 10px;
+  }
+  
+}
+
+@media only screen and (min-width: 800px) {
+  .main{
+    max-width: 1000px;
+    margin: auto;
+  }
+  .search{
+    max-width: 500px;
+    display: inline-block;
+  }
+  .save{
+    max-width: 500px;
+    display: inline-block;
+
+  }
+  
+  form{
+    width: 80%;
+    margin:20px auto;
+    background-color:lightgray;
+    height:150px;
+    text-align:center;
+    box-shadow: 5px 5px 2px 2px black;
+  }
+  input ,button{
+    margin: 15px;
+  }
+  
+}
